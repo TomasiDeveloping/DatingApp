@@ -78,7 +78,7 @@ namespace API.Data.Migrations
                     b.Property<DateTime?>("DateRead")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("MessageSend")
+                    b.Property<DateTime>("MessageSent")
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("RecipientDeleted")

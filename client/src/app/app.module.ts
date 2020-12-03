@@ -27,6 +27,7 @@ import {RegisterComponent} from './register/register.component';
 import { TextInputComponent } from './_forms/text-input/text-input.component';
 import { DateInputComponent } from './_forms/date-input/date-input.component';
 import {BsDatepickerModule} from 'ngx-bootstrap/datepicker';
+import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import {BsDatepickerModule} from 'ngx-bootstrap/datepicker';
     PhotoEditorComponent,
     TextInputComponent,
     DateInputComponent,
+    MemberMessagesComponent,
   ],
   imports: [
     BrowserModule,
