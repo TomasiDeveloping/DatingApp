@@ -8,6 +8,6 @@ namespace API.Interfaces
 {
     public interface ITokenService
     {
-        string CrateToken(AppUser user);
+        Task<string> CrateToken(AppUser user);
     }
 }
